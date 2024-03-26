@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  app:
+    container_name: srcbot
+    build: .
+    command: bash bash.sh
+    environment:
+      API_ID: # 21203369
+      API_HASH: # cb0de78f765b4990eec36bc59b7db08f
+      BOT_TOKEN: # 7155130737:AAEfmcS89KGacwnquR5TpmM1PuELpS9kkWs
+      SESSION: # BAFDiakAWs2gtK2F4az03HXCmnvnpmAVr_J7_PBwwC0MOl-Qcc7ovYji3t_kqgTLZsSyUNSD6RD17J10XOHQXpn-Vv6bgiQgARHxU6k1Ms0IHdNux4fIwHN3K_jFRciZAZV5_jkfa4ooJcblAg2QbqXrJbZloNHfE_8x0HybUVx7vOSdMOqV4Elb9NH0fOhfzfiTkEKdYS3qHFV60XhSs1wbyhiPrq2QcWmv-x93kj1nV7vrFIH0tV9AbPVb8eCfIk19jC4NHk1UVJEAQ9_mawnkzbgM8u2sthDJwhsR90H2gysBKQrq4-HiO_M7bnxFcepuyIjxNOZ431DqO8CV00rq0wpA8wAAAAGLTC1EAA
+      AUTH: # 6631992644
+      FORCESUB: # Username name of public channel without using '@'
